@@ -1,20 +1,25 @@
 ::selection {
   background: hotpink;
-  color: black;
+  color: #201;
 }
 
 :root {
-  background: #212;
-  color: silver;
+  background: #201;
+  color: peachpuff;
 }
 
 :any-link {
-  color: violet;
+  color: peachpuff;
 }
 
-@media (prefers-contrast: more) {
-  :root {
-    background: #201;
-    color: gainsboro;
-  }
+:focus {
+  outline-color: currentColor;
+}
+
+.snooze {
+  text-shadow: 0 -1ex 0 plum;
+}
+
+.ooze {
+  text-shadow: 0 1ex 0 pink;
 }
